@@ -1,0 +1,156 @@
+#cards .container {
+  margin-top: 5%;
+}
+
+#cards .container .info {
+  width: 63%;
+}
+
+#cards .container .chocie {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 42% !important;
+}
+
+#cards .container .chocie a {
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+}
+
+#cards .container .chocie a:nth-child(1) {
+  background-color: #d82828;
+  width: 90px;
+  text-align: center;
+  color: white;
+  height: 30px;
+  border-radius: 20px;
+  padding-top: 3px;
+}
+
+#a-card .container .card-k .card-img {
+  margin-left: 5% !important;
+  width: 30%;
+  margin-top: 5%;
+}
+
+#a-card .container .card-k .card-img img {
+  margin-top: 25%;
+  width: 90%;
+}
+
+#a-card .container .card-k .info-text {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 3%;
+  margin-left: 5%;
+}
+
+#a-card .container .card-k .info-text i {
+  color: red;
+  font-size: 25px;
+}
+
+#a-card .container .card-k .info-text .cashback {
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  margin-top: 3%;
+}
+
+#a-card .container .card-k .info-text .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#a-card .container .card-k .info-text .basket {
+  margin-top: 8%;
+}
+
+#a-card .container .card-k .info-text .basket button {
+  height: 8vh;
+}
+
+#a-card .container .card-k .info-text .basket .e-link {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .links div {
+    width: 100%;
+  }
+}
+
+#installment-cards .container {
+  margin-top: 10% !important;
+}
+
+#installment-cards .container .row .header h2 {
+  font-size: 35px;
+}
+
+#installment-cards .container .row .img {
+  width: 50%;
+}
+
+#installment-cards .container .row .img img {
+  width: 80%;
+  margin-left: 3%;
+  margin-top: 5%;
+}
+
+#installment-cards .container .row .name {
+  font-size: 18px;
+  font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+#installment-cards .container .row .button-basket button {
+  width: 120px;
+  height: 40px;
+  border-radius: 10px;
+  -webkit-transition: 1s;
+  transition: 1s;
+  margin-top: 10px;
+  font-size: 15px;
+  color: red;
+}
+
+#installment-cards .container .row .button-basket button:hover {
+  background-color: red;
+  -webkit-transition: 1s;
+  transition: 1s;
+  color: white;
+}
+
+#installment-cards .container .row .info-1 {
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  .button-basket button {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #cards .container .info {
+    width: 100%;
+  }
+  #cards .container .info h2 {
+    width: 100%;
+  }
+  #cards .container .info p {
+    width: 100%;
+  }
+  #cards .container .info .chocie {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
